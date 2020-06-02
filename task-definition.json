@@ -1,9 +1,9 @@
 {
-  "family": "sample-app",
+  "family": "demo",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "sample-app",
+      "name": "demo1",
       "image": "${IMAGE}",
       "portMappings": [
         {
@@ -16,7 +16,7 @@
     }
   ],
   "requiresCompatibilities": [
-    "FARGATE"
+    "EC2"
   ],
   "cpu": "256",
   "memory": "512"
