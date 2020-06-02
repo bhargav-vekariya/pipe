@@ -1,6 +1,6 @@
 {
   "family": "demo",
-  "networkMode": "default",
+  "networkMode": "bridge",
   "containerDefinitions": [
     {
       "name": "nginx",
