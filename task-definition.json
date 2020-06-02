@@ -3,7 +3,7 @@
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "demo1",
+      "name": "nginx",
       "image": "${IMAGE}",
       "portMappings": [
         {
