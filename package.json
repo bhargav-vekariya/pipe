@@ -7,9 +7,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/bitbucketpipelines/example-aws-ecs-deploy.git"
+    "url": "git+ssh://git@github.com/halfengineer07/pipe.git"
   },
-  "homepage": "https://bitbucket.org/bitbucketpipelines/example-aws-ecs-deploy#readme",
+  "homepage": "https://github.com/halfengineer07/pipe#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
