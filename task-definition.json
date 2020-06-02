@@ -16,7 +16,7 @@
     }
   ],
   "requiresCompatibilities": [
-    "FARGAET"
+    "FARGATE"
   ],
   "cpu": "256",
   "memory": "512"
