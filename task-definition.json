@@ -1,10 +1,10 @@
 {
-  "family": "example-ecs-app",
+  "family": "sample-app",
   "networkMode": "awsvpc",
   "containerDefinitions": [
     {
-      "name": "node-app",
-      "image": "${IMAGE_NAME}",
+      "name": "sample-app",
+      "image": "${IMAGE}",
       "portMappings": [
         {
           "containerPort": 3000,
